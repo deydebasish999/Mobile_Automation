@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/java" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="6.8.12" level="project" />
+    <orderEntry type="library" name="6.9.11" level="project" />
+    <orderEntry type="library" name="2.61" level="project" />
+    <orderEntry type="library" name="jars2" level="project" />
+    <orderEntry type="library" name="3.11.06" level="project" />
+    <orderEntry type="library" name="lib36" level="project" />
+    <orderEntry type="library" name="lib20" level="project" />
+    <orderEntry type="library" name="5.5.2" level="project" />
+    <orderEntry type="library" name="org.eclipse.m2e.archetype.common_1.14.0.20191209-1923" level="project" />
+    <orderEntry type="library" name="UI_Automation_Suite-0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="UI_Automation_Suite-0.0.1-SNAPSHOT1" level="project" />
+    <orderEntry type="library" name="7.1.0" level="project" />
+    <orderEntry type="library" name="lib13" level="project" />
+    <orderEntry type="library" name="7.5.1" level="project" />
+    <orderEntry type="library" name="android-31" level="project" />
+    <orderEntry type="library" name="5.0.2" level="project" />
+    <orderEntry type="library" name="5.5.3" level="project" />
+    <orderEntry type="library" name="maven-cucumber-reporting-5.5.0" level="project" />
+    <orderEntry type="library" name="2.8.0" level="project" />
+    <orderEntry type="library" name="org.eclipse.m2e.archetype.common_1.18.0.20210603-1206" level="project" />
+    <orderEntry type="library" name="3.141.596" level="project" />
+    <orderEntry type="library" name="6.8.11" level="project" />
+    <orderEntry type="library" name="jars" level="project" />
+    <orderEntry type="library" name="org.eclipse.m2e.archetype.common_1.15.0.20200310-1832" level="project" />
+    <orderEntry type="library" name="jars1" level="project" />
+    <orderEntry type="library" name="lib29" level="project" />
+    <orderEntry type="library" name="1.5.4" level="project" />
+    <orderEntry type="library" name="lib39" level="project" />
+    <orderEntry type="library" name="plugins" level="project" />
+    <orderEntry type="library" name="6.7" level="project" />
+    <orderEntry type="library" name="7.3.0" level="project" />
+    <orderEntry type="library" name="6.10" level="project" />
+    <orderEntry type="library" name="lib18" level="project" />
+    <orderEntry type="library" name="2.5" level="project" />
+    <orderEntry type="library" name="Downloads" level="project" />
+    <orderEntry type="library" name="5.5.03" level="project" />
+    <orderEntry type="library" name="maven-cucumber-reporting-3.15.0" level="project" />
+    <orderEntry type="module" module-name="test4" />
+    <orderEntry type="module" module-name="test6" />
+    <orderEntry type="module" module-name="test1" />
+    <orderEntry type="module" module-name="main4" />
+  </component>
+</module>

@@ -1,0 +1,60 @@
+passColor: 009933
+failColor: CC3333
+skipColor: 0099cc
+displayFeature: true
+displayScenario: true
+displayDetailed: true
+
+
+summaryConfig:
+   title: DQA UI Automation PDF Report
+   titleColor: 003399
+   dateColor: 003399
+   timeColor: 003399
+   dataBackgroundColor: FF007F
+   
+   dial:
+      featureRanges: 60 95
+      scenarioRanges: 70 90
+      stepRanges: 75 85
+      badColor: 0099cc 
+      averageColor: 996633
+      goodColor: 003399
+      
+   
+featureConfig:
+   totalColor: 003399
+   durationColor: 003399
+   
+scenarioConfig:
+   totalColor: 003399
+   durationColor: 003399
+   
+detailedFeatureConfig:
+   featureNameColor: 003399
+   startEndTimeColor: 000000
+   tagColor: 404040
+   dataHeaderColor: FFFFFF
+   dataBackgroundColor: FFFFFF
+   totalColor: 003399
+   durationColor: 003399
+   durationBackgroundColor: FFFFFF   
+   
+detailedScenarioConfig:
+   featureNameColor: 003399
+   scenarioNameColor: 003399
+   startEndTimeColor: 000000
+   tagColor: 404040
+   dataHeaderColor: FFFFFF
+   dataBackgroundColor: FFFFFF
+   totalColor: 003399
+   durationColor: 003399
+   durationBackgroundColor: FFFFFF
+   stepChartBarColor: 003399
+   
+detailedStepHookConfig:
+   stepTextColor: 003399
+   hookTextColor: 00FF00
+   durationColor: 003399
+   errorMsgColor: 000000
+   logMsgColor: 000000

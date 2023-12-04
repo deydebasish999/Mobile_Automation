@@ -1,0 +1,120 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-04T17:35:48.356Z",
+        "line": 14,
+        "name": "Form Filling",
+        "description": "",
+        "id": "ecommerece-app-testing;form-filling;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I launch General Strore app from device",
+            "match": {
+              "location": "stepDefinitions.EcommerceAppSteps.i_launch_general_strore_app_from_device()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7526000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I provide required details in form \"Anaya\",\"Female\" and \"Australia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Anaya\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Female\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Australia\"",
+                  "offset": 56
+                }
+              ],
+              "location": "stepDefinitions.EcommerceAppSteps.i_provide_required_details_in_form_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on shop button",
+            "match": {
+              "location": "stepDefinitions.EcommerceAppSteps.click_on_shop_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3059000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Product list page is displayed \"Products\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Products\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.EcommerceAppSteps.product_list_page_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Demo"
+          },
+          {
+            "name": "@Ecomm"
+          },
+          {
+            "name": "@TC1"
+          }
+        ]
+      }
+    ],
+    "name": "Ecommerece App Testing",
+    "description": "",
+    "id": "ecommerece-app-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureFiles/EcommerceApp.feature",
+    "tags": [
+      {
+        "name": "@Demo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Ecomm",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

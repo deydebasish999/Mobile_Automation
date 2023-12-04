@@ -1,0 +1,5 @@
+stepDefinitions\DialPhoneNumberSteps.class
+testRunners\TestRunner.class
+stepDefinitions\EcommerceAppSteps.class
+testRunners\EcommTestRunner.class
+stepDefinitions\SendMessageSteps.class
