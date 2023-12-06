@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Mobile_Automation_Demo</td>
-      <td>27 Nov 2023, 16:40</td>
+      <td>06 Dec 2023, 16:08</td>
     </tr>
   </tbody>
 </table>
@@ -127,19 +127,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@TC4</td>
-          <td      class="passed"    >1</td>
-          <td      class="failed"    >1</td>
-          <td     class="skipped"   >4</td>
+          <td      class="passed"    >6</td>
+          <td >0</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">6</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="23458000000">23.458</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="22999171700">22.999</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -183,12 +183,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">23.458</span>
+  <span class="lead-duration duration">22.999</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Verify total cart amount</span>
 
@@ -199,16 +199,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -218,7 +218,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -226,7 +226,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">I launch General Strore app from device</span>
 
-  <span class="lead-duration duration">0.007</span>
+  <span class="lead-duration duration">0.015</span>
 
 </div>
 
@@ -249,11 +249,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-When failed">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">I provide required details in form</span>
 
-  <span class="lead-duration duration">23.450</span>
+  <span class="lead-duration duration">18.147</span>
 
 </div>
 
@@ -261,52 +261,6 @@ $(document).ready(function() {
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-3" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IN-DEBASISHDEY', ip: '192.168.29.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\debasishdey\Deskto..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, chromedriverExecutable: C:\Users\debasishdey\Deskto..., databaseEnabled: false, desired: {app: C:\Users\debasishdey\Deskto..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, chromedriverExecutable: C:\Users\debasishdey\Deskto..., deviceName: emulator-5554, platformName: android, platformVersion: 13.0, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 2274, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: c83a358a-cb68-4c7f-8c1d-c8da742623eb
-*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text(&quot;Belgium&quot;));}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
-	at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElement(MobileBy.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at utility.GenericMethods.scrollToElement(GenericMethods.java:175)
-	at actions.EcommerceAppActions.fillFormFromTestDataSheet(EcommerceAppActions.java:51)
-	at stepDefinitions.EcommerceAppSteps.i_provide_required_details_in_form(EcommerceAppSteps.java:53)
-	at &#10045;.I provide required details in form(file:///C:/Users/debasishdey/Desktop/workspace/SAP_Automation_Workspace/Mobile_UI_Automation_Suite_New/src/test/resources/featureFiles/EcommerceApp.feature:38)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -322,11 +276,11 @@ Session ID: c83a358a-cb68-4c7f-8c1d-c8da742623eb
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">Click on shop button</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.153</span>
 
 </div>
 
@@ -349,11 +303,11 @@ Session ID: c83a358a-cb68-4c7f-8c1d-c8da742623eb
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">I add the products to cart</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">3.169</span>
 
 </div>
 
@@ -376,11 +330,11 @@ Session ID: c83a358a-cb68-4c7f-8c1d-c8da742623eb
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">I navigate to cart</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.135</span>
 
 </div>
 
@@ -403,11 +357,11 @@ Session ID: c83a358a-cb68-4c7f-8c1d-c8da742623eb
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">Validate product added amount is equal to total cart amount</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.378</span>
 
 </div>
 

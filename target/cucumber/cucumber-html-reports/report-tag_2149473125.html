@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Mobile_Automation_Demo</td>
-      <td>27 Nov 2023, 16:40</td>
+      <td>06 Dec 2023, 16:08</td>
     </tr>
   </tbody>
 </table>
@@ -127,9 +127,9 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@TC5</td>
-          <td      class="passed"    >1</td>
+          <td      class="passed"    >5</td>
           <td      class="failed"    >1</td>
-          <td     class="skipped"   >5</td>
+          <td     class="skipped"   >1</td>
           <td >0</td>
           <td >0</td>
           <td class="total">7</td>
@@ -138,7 +138,7 @@ $(document).ready(function() {
           <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="25986000000">25.986</td>
+          <td class="duration" data-value="35013113900">35.013</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -183,7 +183,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">25.986</span>
+  <span class="lead-duration duration">35.013</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
@@ -226,7 +226,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">I launch General Strore app from device</span>
 
-  <span class="lead-duration duration">0.006</span>
+  <span class="lead-duration duration">0.004</span>
 
 </div>
 
@@ -249,11 +249,119 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-When failed">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">I provide required details in form</span>
 
-  <span class="lead-duration duration">25.980</span>
+  <span class="lead-duration duration">15.126</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">Click on shop button</span>
+
+  <span class="lead-duration duration">0.172</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">I search for a particular product and add the product to cart</span>
+
+  <span class="lead-duration duration">11.354</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">I navigate to cart</span>
+
+  <span class="lead-duration duration">0.178</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And failed">
+  <span class="keyword indention">And</span>
+  <span class="name">I verify the terms and conditions functionality,check the promotional checkbox and click proceed to buy</span>
+
+  <span class="lead-duration duration">8.176</span>
 
 </div>
 
@@ -265,21 +373,31 @@ $(document).ready(function() {
   <div class="inner-level">
     <div class="message indention">
       <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
+          <a>io.appium.java_client.NoSuchContextException:</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+        <pre>io.appium.java_client.NoSuchContextException: No such context found.
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'IN-DEBASISHDEY', ip: '192.168.29.149', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+System info: host: 'IN-BLROCT01', ip: '192.168.29.245', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.5'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: C:\Users\debasishdey\Deskto..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, chromedriverExecutable: C:\Users\debasishdey\Deskto..., databaseEnabled: false, desired: {app: C:\Users\debasishdey\Deskto..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, chromedriverExecutable: C:\Users\debasishdey\Deskto..., deviceName: emulator-5554, platformName: android, platformVersion: 13.0, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 2274, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: 67c299c5-520e-448b-873a-f2580638a7a5
-*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text(&quot;Belgium&quot;));}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+Capabilities {app: C:\Users\KPMG\git\Mobile_Au..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, chromedriverExecutable: C:\Users\KPMG\git\Mobile_Au..., databaseEnabled: false, desired: {app: C:\Users\KPMG\git\Mobile_Au..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, chromedriverExecutable: C:\Users\KPMG\git\Mobile_Au..., deviceName: emulator-5554, platformName: android, platformVersion: 12.0, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 2211, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c46f858d-3d83-4d69-b798-99c797b2eab2
+	at io.appium.java_client.AppiumDriver.context(AppiumDriver.java:232)
+	at utility.GenericMethods.switchToWebView(GenericMethods.java:223)
+	at actions.EcommerceAppActions.buyProduct(EcommerceAppActions.java:142)
+	at stepDefinitions.EcommerceAppSteps.i_verify_the_terms_and_conditions_functionality_check_the_promotional_checkbox_and_click_proceed_to_buy(EcommerceAppSteps.java:83)
+	at &#10045;.I verify the terms and conditions functionality,check the promotional checkbox and click proceed to buy(file:///C:/Users/KPMG/git/Mobile_Automation/src/test/resources/featureFiles/EcommerceApp.feature:51)
+Caused by: org.openqa.selenium.WebDriverException: No such context found.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-BLROCT01', ip: '192.168.29.245', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.5'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\KPMG\git\Mobile_Au..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, chromedriverExecutable: C:\Users\KPMG\git\Mobile_Au..., databaseEnabled: false, desired: {app: C:\Users\KPMG\git\Mobile_Au..., appActivity: com.androidsample.generalst..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, chromedriverExecutable: C:\Users\KPMG\git\Mobile_Au..., deviceName: emulator-5554, platformName: android, platformVersion: 12.0, resetKeyboard: true, unicodeKeyboard: true}, deviceApiLevel: 31, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, resetKeyboard: true, statBarHeight: 63, takesScreenshot: true, unicodeKeyboard: true, viewportRect: {height: 2211, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c46f858d-3d83-4d69-b798-99c797b2eab2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -289,20 +407,58 @@ Session ID: 67c299c5-520e-448b-873a-f2580638a7a5
 	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
 	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
-	at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElement(MobileBy.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at utility.GenericMethods.scrollToElement(GenericMethods.java:175)
-	at actions.EcommerceAppActions.fillFormFromTestDataSheet(EcommerceAppActions.java:51)
-	at stepDefinitions.EcommerceAppSteps.i_provide_required_details_in_form(EcommerceAppSteps.java:53)
-	at &#10045;.I provide required details in form(file:///C:/Users/debasishdey/Desktop/workspace/SAP_Automation_Workspace/Mobile_UI_Automation_Suite_New/src/test/resources/featureFiles/EcommerceApp.feature:47)
+	at io.appium.java_client.AppiumDriver.context(AppiumDriver.java:229)
+	at utility.GenericMethods.switchToWebView(GenericMethods.java:223)
+	at actions.EcommerceAppActions.buyProduct(EcommerceAppActions.java:142)
+	at stepDefinitions.EcommerceAppSteps.i_verify_the_terms_and_conditions_functionality_check_the_promotional_checkbox_and_click_proceed_to_buy(EcommerceAppSteps.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre>
       </div>
     </div>
@@ -322,119 +478,11 @@ Session ID: 67c299c5-520e-448b-873a-f2580638a7a5
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">Click on shop button</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">I search for a particular product and add the product to cart</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">I navigate to cart</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">I verify the terms and conditions functionality,check the promotional checkbox and click proceed to buy</span>
-
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
 <div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
   <span class="name">Validate navigation to buy page</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
