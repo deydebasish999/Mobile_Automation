@@ -93,5 +93,6 @@ public class EcommTestRunner extends AbstractTestNGCucumberTests{
 //	    File destFile = new File(System.getProperty("user.dir")+"\\screenshots\\image-crop.png");
 //	    CropImage.resize(imageFile, destFile, 800, 600);
 //		bc.tearDownReport();
+		
 	}
 }
