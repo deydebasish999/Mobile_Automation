@@ -30,7 +30,7 @@ import utility.SendEmailAfterexecution;
 @CucumberOptions(
 		features = "src/test/resources/featureFiles",
 		glue = "stepDefinitions",
-		tags="@TC1",
+		tags="@Ecomm",
 		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"json:target/cucumber.json",
 				"de.monochromata.cucumber.report.PrettyReports:target/cucumber"},
